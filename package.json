@@ -1,0 +1,19 @@
+{
+  "name": "tokenomiq-backend",
+  "version": "2.0.0",
+  "description": "TokenomIQ — 3-agent tokenomics analysis engine",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "groq-sdk": "^1.2.1"
+  }
+}
